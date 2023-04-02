@@ -1,0 +1,51 @@
+<div class= {{class}}>
+    <h2>Contact Us!</h2>
+    <p>Have any questions, comments or concerns? Fill out the form below to get in contact with us!</p>
+	<div class= {{subclass}}>
+      <form name ="formtest" action="action_page.php">
+
+        <div id= {{fname}} >
+        </div>
+        <label for="fname">First Name</label>
+        <input type= {{type}} id="fname" name="firstname" placeholder="Your name.." minlength= {{min}} required>
+        
+
+        <div id= {{lname}}>
+        </div>
+        <label for="lname">Last Name</label>
+        <input type= {{type}} id="lname" name="lastname" placeholder="Your last name.." minlength= {{min}} required>
+        
+
+        <div id= {{email}}>
+        </div>
+        <label for="email">Email:</label>
+        <input type= {{type}} id="email" name="email" placeholder="Enter your email" minlength= {{min}} required>
+        
+
+        <div id= {{sub}}>
+        </div>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" minlength= {{min}} required></textarea>
+        
+        <input type= {{input}} value="Submit" id="subbtn">
+
+      </form>
+    </div>
+
+
+</div>
+<div id ="api">
+    ....
+</div>
+<div id= test>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+
+<script>
+    window.jQuery || document.write('script src="jquery-3.6.3.min.js"><\/script')
+</script>
+<script src={{script1}}></script>
+<script src={{script2}}></script>
+
